@@ -212,9 +212,6 @@ class Block{
 			return false;
 		}
 	}
-	String MytoString(){
-		return new String(c1.MytoString()+","+c2.MytoString()+","+c3.MytoString()+","+c4.MytoString()+","+c5.MytoString());
-	}
 }
 
 class cordinate {
@@ -247,8 +244,5 @@ class cordinate {
 		}else{
 			return false; 
 		}
-	}
-	String MytoString(){
-			return new String("("+x+","+y+")");
 	}
 }
